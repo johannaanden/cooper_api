@@ -14,7 +14,7 @@ RSpec.describe Api::V1::PerformanceDataController, type: :request do
         end
     end
 
-    describe 'GET /api/v1/peformance_data' do
+    describe 'GET /api/v1/performance_data' do
         before do
             5.times { user.performance_data.create(data: { message: 'Average' }) }
         end
